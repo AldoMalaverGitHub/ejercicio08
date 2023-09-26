@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="300.0" prefWidth="250.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="sunat.gob.pe.ejercicio08.controller.DigitalController">
+   <children>
+      <Label layoutX="29.0" layoutY="30.0" text="Reloj Digital">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblReloj" layoutX="95.0" layoutY="123.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="12.0" layoutY="199.0" prefHeight="53.0" prefWidth="227.0" spacing="5.0">
+         <children>
+            <Button fx:id="btnIniciar" mnemonicParsing="false" text="Iniciar" />
+            <Button fx:id="btnParar" mnemonicParsing="false" text="Parar" />
+            <ToggleButton fx:id="tbCambiar" mnemonicParsing="false" text="Cambiar" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
